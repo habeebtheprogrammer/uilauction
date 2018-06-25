@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
 app.use(helmet());  
 app.disable('x-powered-by');
 // view engine setup
-app.set('views', path.join(__dirname, 'build'));
+app.set('views', path.join(__dirname,"../", 'build'));
 app.set('view engine', "html");
 
 app.engine('html', require('hbs').__express);
@@ -37,12 +37,11 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'build')));
-
+app.use(express.static(path.join(__dirname,"../", 'build')));
 
 app.use('/', index);
 app.get('*',function(req, res){
-  res.sendFile(path.join(process.cwd(),"build/index.html"))
+  res.sendFile(path.join(__dirname,"../","build/index.html"))
 });
 
 app.listen(process.env.PORT || 3006,()=>console.log("Server running on port 3006"));

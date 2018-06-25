@@ -111,7 +111,7 @@ class Join extends Component {
                                 width:100% !important;
                                 padding:0px !important;
                                 margin:0px !important;
-                            background:#fff url("../../images/Writers_Models_Style_13.jpg") no-repeat;
+                            background:#fff url("../../images/j1.jpg") no-repeat;
                                 background-size:cover;
                             background-position:center;  
                             }

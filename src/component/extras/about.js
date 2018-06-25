@@ -21,7 +21,7 @@ class About extends Component {
                             <h5 className="headline margin-bottom-30">Find Us There</h5>
                             <div className="sidebar-textbox">
                                 <p>
-                                    No 32,along University of ilorin road (permanent site) Oke odo, Tanke Ilorin Nigeria</p>
+                                    No 32, along University of ilorin road (permanent site) Oke odo, Tanke Ilorin Nigeria</p>
                                 <ul className="contact-details">
                                     <li><i className="material-icons">phone</i> <strong>Phone:</strong> <span>(+234) 8181362484 </span></li>
                                     <li><i className="material-icons">web</i> <strong>Web:</strong> <span><a href="#">www.bidders.herokuapp.com</a></span></li>
@@ -36,11 +36,11 @@ class About extends Component {
                                 <h5 className="headline margin-bottom-35">About Us</h5>
 
                                 <div id="contact-message">
-                                    <p>TamTamTools is a platform devoted to the support of talented and rising artists, with the goal of helping them take their career to the next level and achieve their dreams of becoming successful in their various fields.</p>
-                                    <p>Founded by Gilles Van Der Linden, an international successful tenor opera singer and a team of professionals from a wide spectrum of fields, our organization is well aware of the challenges rising talents face in the real world and is dedicated to assisting them tackle such issues.</p>
-                                    <p>We seek to bring together talented individuals from all over the world, share resources and provide appropriate career guidance, advice and support. Through our platform, artists can gain exposure as we tackle one of their key problems - talent awareness, by showcasing their works and consequently increasing publicity.</p>
-                                    <p>Our vision of career development and advancement for artists is underscored by the regular provision of financial support for our members with the best rated profile on a monthly basis.</p>
-                                    <p>We’re building a huge community and would like you to be part of it. Are you a talented singer, model, DJ, photographer, writer, make-up artist or exceptionally skilled in any field? Why don’t you come on board?</p>
+                                    <p>uilaution is an ecommerce platform devoted to the support of buyers and sellings in the marketplace, with the goal of helping them take their career to the next level and achieve their dreams of becoming successful in their various fields.</p>
+                                    <p>Founded by Kamaldeen Maiyaki and a team of professionals from a wide spectrum of fields, our organization is well aware of the challenges faced by buyers and sellers all around the world and help them tackle such issues.</p>
+                                    <p>We seek to bring together buyers and sellers and individuals from all over the world. Through our platform, buyers and sellers can gain exposure as we tackle one of their key problems - awareness, by showcasing their products and consequently increasing publicity.</p>
+                                    <p>Our vision of career development and advancement for buyers and sellers is underscored by the regular provision of publicity support for our members with the best rated profile on a monthly basis.</p>
+                                    <p>We’re building a huge community and would like you to be part of it. Are you interested in buying or selling an item?  Why don’t you come on board?</p>
                                 </div>
 
                             </section>

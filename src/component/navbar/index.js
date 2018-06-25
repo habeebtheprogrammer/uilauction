@@ -49,7 +49,7 @@ class Navbar extends Component {
                     <div className="nav-wrapper">
                         <ul id="nav-mobile" className="left " style={{zIndex:2}}>
                             <li className="hide-on-large-only "><Sidebar {...this.props}/></li>
-                            <li> <Link to="/" className="brand-logo" >Bidders</Link></li>
+                            <li> <Link to="/" className="brand-logo" style={{fontSize:"1.4em"}} >UilAution</Link></li>
                         </ul>
 
                         <ul id="nav-mobile" className="right hide-on-med-and-down ">

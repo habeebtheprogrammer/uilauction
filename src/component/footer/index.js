@@ -45,8 +45,8 @@ class Footer extends Component {
                                 Our Support
                         </div>
                             <div className="content" >
-                                {/* <p className="col  s12"><Link to="/calendar"> Calendar</Link></p> */}
-                                <p className="col  s12"><Link to="/pricing"> Pricing </Link></p>
+                                <div id="google_translate_element"></div>
+                                {/* <p className="col  s12"><Link to="/pricing"> Pricing </Link></p> */}
 
                                 {/* <p className="col  s12"><Link to="/our-Team"> Our Team</Link></p> */}
                             </div>
@@ -69,12 +69,12 @@ class Footer extends Component {
                             <div className="content">
                                 {/* <p>If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us.</p> */}
                                 <p className="grey-text text-lighten-1"> No 32,along  University of ilorin road (permanent site) Oke odo, Tanke Ilorin Nigeria</p>
-                                <p style={{ color: "#eee" }}>Email: info@bidders.com</p>
+                                <p style={{ color: "#eee" }}>Email: info@uilaution.com</p>
                                 <p className="">
-                                    <a href="https://facebook.com/bidders" target="_blank" className="left" style={{ marginRight: "10px" }}><FacebookIcon size={32} round={true} /></a>
-                                    <a href="https://twitter.com/bidders" target="_blank" className="left" style={{ marginRight: "10px" }}><TwitterIcon size={32} round={true} /></a>
+                                    <a href="https://facebook.com/uilaution" target="_blank" className="left" style={{ marginRight: "10px" }}><FacebookIcon size={32} round={true} /></a>
+                                    <a href="https://twitter.com/uilaution" target="_blank" className="left" style={{ marginRight: "10px" }}><TwitterIcon size={32} round={true} /></a>
                                     <a href="https://google.com" target="_blank" className="left" style={{ marginRight: "10px" }}><GooglePlusIcon size={32} round={true} /></a>
-                                    <a href="https://linkedin.com/bidders" target="_blank" className="left" style={{ marginRight: "10px" }}><LinkedinIcon size={32} round={true} /></a>
+                                    <a href="https://linkedin.com/uilaution" target="_blank" className="left" style={{ marginRight: "10px" }}><LinkedinIcon size={32} round={true} /></a>
                                 </p>
                                 {/* <table border="0" cellpadding="10" cellspacing="0" align="center">
                                     <tr>
@@ -104,7 +104,6 @@ class Footer extends Component {
                         color:#eee;
                         font-size:1.4em;
                         margin-bottom:10px;
-                        display:none;
                     }
                     .fpad{
                        padding: 50px 40px 0px

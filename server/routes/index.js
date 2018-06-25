@@ -20,7 +20,7 @@ var jwt = require('jsonwebtoken');
 var formidable = require('formidable');
 var fs = require("fs")
 var cloudinary = require("cloudinary")
-var data = require("../data")
+
 var dotenv = require('dotenv')
 dotenv.config();
 cloudinary.config({

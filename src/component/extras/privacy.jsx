@@ -14,11 +14,11 @@ class Privacy extends Component {
                                 <div >
                                     <h5 className="headline margin-bottom-30">Find Us There</h5>
                                     <div className="sidebar-textbox">
-                                        <p>LOUVAIN-LA-NEUVE,City Centre Place de L'universite 16 Louvain-la-Neuve</p>
+                                        <p>University of Ilorin. tanke Ilorin. kwara state</p>
                                         <ul className="contact-details">
                                             <li><i className="material-icons">phone</i> <strong>Phone:</strong> <span>(+32) 470776403 </span></li>
-                                            <li><i className="material-icons">web</i> <strong>Web:</strong> <span><a href="#">www.tamtamtools.com</a></span></li>
-                                            <li><i className="material-icons">email</i> <strong>E-Mail:</strong> <span><a href="#">support@tamtamtools.com</a></span></li>
+                                            <li><i className="material-icons">web</i> <strong>Web:</strong> <span><a href="#">www.uilaution.com</a></span></li>
+                                            <li><i className="material-icons">email</i> <strong>E-Mail:</strong> <span><a href="#">support@uilaution.com</a></span></li>
                                         </ul>
                                     </div>
                                     <div className="clearfix"></div>
@@ -34,7 +34,7 @@ class Privacy extends Component {
 
                                 <div id="contact-message">
                                     <p>  Privacy Policy Effective date: April 27, 2018</p>
-                                    <p> TamTamTools BVBA ("us", "we", or "our") operates the www.tamtamtools.com website and the TamTamToolsApp mobile application (the "Service").
+                                    <p> uilaution BVBA ("us", "we", or "our") operates the www.uilaution.com website and the uilautionApp mobile application (the "Service").
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
 Definitions</p>
@@ -81,7 +81,7 @@ You can instruct your browser to refuse all cookies or to indicate when a cookie
                                     <div>•	Preference Cookies. We use Preference Cookies to remember your preferences and various settings.</div>
                                     <div>•	Security Cookies. We use Security Cookies for security purposes.</div>
                                     <p>Use of Data</p>
-                                    TamTamTools BVBA uses the collected data for various purposes:
+                                    uilaution BVBA uses the collected data for various purposes:
                                     <div>•	To provide and maintain our Service</div>
                                     <div>•	To notify you about changes to our Service</div>
                                     <div>•	To allow you to participate in interactive features of our Service when you choose to do so</div>
@@ -91,20 +91,20 @@ You can instruct your browser to refuse all cookies or to indicate when a cookie
                                     <div>•	To detect, prevent and address technical issues</div>
                                     <div>•	To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information</div>
                                     <p>Retention of Data</p>
-                                    TamTamTools BVBA will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
-TamTamTools BVBA will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.
+                                    uilaution BVBA will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+uilaution BVBA will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.
 <p>Transfer Of Data</p>
                                     Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
 If you are located outside Belgium and choose to provide information to us, please note that we transfer the data, including Personal Data, to Belgium and process it there.
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
-TamTamTools BVBA will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+uilaution BVBA will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 <p>Disclosure Of Data</p>
                                     Disclosure for Law Enforcement
-Under certain circumstances, TamTamTools BVBA may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+Under certain circumstances, uilaution BVBA may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
 Legal Requirements
-TamTamTools BVBA may disclose your Personal Data in the good faith belief that such action is necessary to:
+uilaution BVBA may disclose your Personal Data in the good faith belief that such action is necessary to:
                                     <div>•	To comply with a legal obligation</div>
-                                    <div>•	To protect and defend the rights or property of TamTamTools BVBA</div>
+                                    <div>•	To protect and defend the rights or property of uilaution BVBA</div>
                                     <div>•	To prevent or investigate possible wrongdoing in connection with the Service</div>
                                     <div>•	To protect the personal safety of users of the Service or the public</div>
                                     <div>•	To protect against legal liability</div>
@@ -114,14 +114,14 @@ TamTamTools BVBA may disclose your Personal Data in the good faith belief that s
 We do not support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.
 You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.
 <p>Your Rights</p>
-                                    TamTamTools BVBA aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
+                                    uilaution BVBA aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
 Whenever made possible, you can update your Personal Data directly within your account settings section. If you are unable to change your Personal Data, please contact us to make the required changes.
 If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.
 In certain circumstances, you have the right:
 <div>•	To access and receive a copy of the Personal Data we hold about you</div>
                                     <div>•	To rectify any Personal Data held about you that is inaccurate</div>
                                     <div>•	To request the deletion of Personal Data held about you</div>
-                                    You have the right to data portability for the information you provide to TamTamTools BVBA. You can request to obtain a copy of your Personal Data in a commonly used electronic format so that you can manage and move it.
+                                    You have the right to data portability for the information you provide to uilaution BVBA. You can request to obtain a copy of your Personal Data in a commonly used electronic format so that you can manage and move it.
 Please note that we may ask you to verify your identity before responding to such requests.
 <p>Service Providers</p>
                                         We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
@@ -132,7 +132,7 @@ These third parties have access to your Personal Data only to perform these task
                                         Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 For more information on the privacy practices of Google, please visit the Google Privacy Terms web page: http://www.google.com/intl/en/policies/privacy/
                                         <p>Behavioral Remarketing</p>
-                                        TamTamTools BVBA uses remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimize and serve ads based on your past visits to our Service.
+                                        uilaution BVBA uses remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimize and serve ads based on your past visits to our Service.
                                         <p>Google AdWords</p>
                                         Google AdWords remarketing service is provided by Google Inc.
 You can opt-out of Google Analytics for Display Advertising and customize the Google Display Network ads by visiting the Google Ads Settings page: http://www.google.com/settings/ads
@@ -170,7 +170,7 @@ We will let you know via email and/or a prominent notice on our Service, prior t
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
  <p>Contact Us</p>
                                         If you have any questions about this Privacy Policy, please contact us:
-<div>•	By email: office@tamtamtools.com</div>
+<div>•	By email: office@uilaution.com</div>
 
 
 
