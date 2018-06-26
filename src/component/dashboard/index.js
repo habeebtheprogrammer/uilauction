@@ -7,12 +7,10 @@ import { Player } from 'video-react';
 import apiUrl from "../../config"
 import { Link } from "react-router-dom"
 import { connect } from "react-redux"
-import Bestprofiles from "../artist/bestprofiles"
 import { bindActionCreators } from "redux"
 import Audio from 'react-audioplayer';
 import auth from "../../reducer/index"
 import { setUserProfile, editUserProfile } from "../../actions/index"
-import data from "../../data"
 import FileUpload from "react-fileupload"
 import moment from "moment"
 import Contact from "./contact"

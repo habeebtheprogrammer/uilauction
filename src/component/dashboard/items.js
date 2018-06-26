@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom"
-import data from "../../data"
 import axios from "axios"
 import apiUrl from "../../config"
 class Items extends Component {

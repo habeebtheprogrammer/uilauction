@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom"
 import Footer from "../footer/index"
-import data from "../../data"
 import classnames from "classnames"
 import axios from "axios"
 import Banner from "../profile/banner"

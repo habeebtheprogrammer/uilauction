@@ -2,22 +2,8 @@ import React, { Component } from 'react';
 import Navbar from "../navbar/index"
 import { Link } from "react-router-dom"
 import Searchbar from "./searchbar"
-import Gridblock from "./gridblock"
-import Artistrow from "./artistrow"
-import Ourservices from "./ourservices"
-import Bookanartist from "./bookanartist"
-import Aboutus from "./aboutus"
 import Footer from "../footer/index"
-import Radio from "./radio"
-import Video from "./video"
-import Services from "./services"
-import Featured from "./featured"
-import Pricing from "./pricing"
-import Pictures from "./pictures"
-import Upcoming from './upcoming';
-import Categoryslider from "../slider/categoryslider"
 import Marketplace from './marketplace';
-import News from "./news"
 import { Divider, Slider, Slide } from 'react-materialize';
 
 class Hompage extends Component {

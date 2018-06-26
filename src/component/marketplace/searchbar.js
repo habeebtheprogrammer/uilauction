@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import apiUrl from "../../config"
-import data from "../../data"
 import axios from "axios"
 import { Input, Col, Preloader } from "react-materialize"
 import Select from "react-select"

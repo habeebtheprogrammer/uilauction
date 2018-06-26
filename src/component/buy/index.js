@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import Navbar from "../navbar/index"
 import { Link } from "react-router-dom"
 import Footer from "../footer/index"
-import data from "../../data"
 import classnames from "classnames"
 import { connect } from "react-redux"
 
 import axios from "axios"
-import Banner from "../profile/banner"
 import apiUrl from "../../config.js"
 import moment from "moment"
 import setAuthorizationToken from "../auth"

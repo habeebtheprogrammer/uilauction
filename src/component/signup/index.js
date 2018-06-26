@@ -3,8 +3,6 @@ import Navbar from "../navbar/index"
 import { Link } from "react-router-dom"
 import Footer from "../footer/index"
 import axios from "axios"
-import data from "../../data"
-
 import setAuthorizationToken from "../auth"
 import apiUrl from "../../config.js"
 import { Preloader, Row, Input, Icon, ProgressBar, Col } from "react-materialize"

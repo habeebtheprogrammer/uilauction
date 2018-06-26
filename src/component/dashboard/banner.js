@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import data from "../../data"
 import FileUpload from "react-fileupload"
 import Loading from "../loader"
 import apiUrl from "../../config"

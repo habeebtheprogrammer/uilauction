@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Slider from "react-slick"
-import data from "../../data.js"
 import apiUrl from "../../config"
 import axios from "axios"
 import {Icon} from "react-materialize"

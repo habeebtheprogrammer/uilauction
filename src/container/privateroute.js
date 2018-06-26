@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route, Redirect } from "react-router-dom"
 import { connect } from "react-redux";
 import Paymentpage from "../component/paymentpage/index"
-import Register from "../component/register/index"
 function mapStateToProps(state) {
     return { auth: state.auth }
 }
