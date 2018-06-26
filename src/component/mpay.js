@@ -16,7 +16,7 @@ function matchDispatchToProps(dispatch) {
     return bindActionCreators({
         setCurrentUser: setCurrentUser
     }, dispatch)
-}
+} 
 
 class Paypal extends React.Component {
 
