@@ -17,8 +17,8 @@ class Footer extends Component {
                     {/* <div style={{ borderBottom: "1px solid #333" }}>
                         <Radio />
                     </div> */}
-                    <div className="row fpad" style={{ padding: "" }}>
-                        <div className="col m3">
+                    <div className="row fpad " style={{ padding: "" }}>
+                        <div className="col m3 fpadtop">
                             <div className="title">
                                 Navigation
                         </div>
@@ -133,6 +133,9 @@ class Footer extends Component {
                     }
                     .content .s12{
                         padding-left:0px
+                    }
+                    .fpadtop{
+                        padding-top:40px !important;
                     }
                     .fpad{
                         padding:0px

@@ -49,7 +49,7 @@ class Resetpassword extends Component {
         return (
             <div>
                 {this.state.isLoading?<Loading />:null}
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="row" style={{ padding: "80px 0px 200px" }}>
                     <div className="col s12 center-align" >
                         <h5 className="pay-text">  Password reset</h5>
@@ -104,7 +104,7 @@ class Resetpassword extends Component {
                  
                 `}
                 </style>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }

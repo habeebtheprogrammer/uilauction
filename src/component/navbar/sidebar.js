@@ -27,6 +27,9 @@ class Sidebar extends Component {
                     {/* <SideNavItem waves href='/media-channel' icon='play_arrow'>Media Channel</SideNavItem> */}
                     {/* <SideNavItem waves href='/artist' icon='group'>Artist profile</SideNavItem> */}
                     <SideNavItem waves href='/marketplace' icon='shopping_cart'>Marketplace</SideNavItem>
+                    <SideNavItem waves href='/about' icon='groups'>About us</SideNavItem>
+                    <SideNavItem waves href='/contact' icon='phone'>Contact</SideNavItem>
+                    <SideNavItem waves href='/privacy-policy' icon='cloud'>Privacy policy</SideNavItem>
                     {/* <SideNavItem waves href='/search' icon='search'>Search</SideNavItem> */}
                     {/* <SideNavItem waves href='/news' icon='cloud'>News</SideNavItem> */}
                     {/* <SideNavItem waves href='/calendar' icon='alarm'>Events</SideNavItem> */}

@@ -49,12 +49,13 @@ class Navbar extends Component {
                     <div className="nav-wrapper">
                         <ul id="nav-mobile" className="left " style={{zIndex:2}}>
                             <li className="hide-on-large-only "><Sidebar {...this.props}/></li>
-                            <li> <Link to="/" className="brand-logo" style={{fontSize:"1.4em"}} >UilAution</Link></li>
+                            <li> <Link to="/" className="brand-logo" style={{fontSize:"1.4em"}} >UILAUCTION</Link></li>
                         </ul>
 
                         <ul id="nav-mobile" className="right hide-on-med-and-down ">
                             {/* <li><Link to="/" style={{ position: "relative" }}>Home  <span className="tab-effect"></span></Link></li> */}
                             {/* <li><Link to="/search" style={{ position: "relative" }}>Search  <span className="tab-effect"></span></Link></li> */}
+                            <li><Link to="/" style={{ position: "relative" }}>Home  <span className="tab-effect"></span></Link></li>
                             <li><Link to="/marketplace" style={{ position: "relative" }}>Marketplace  <span className="tab-effect"></span></Link></li>
                             <li><Link to="/about" style={{ position: "relative" }}>About us  <span className="tab-effect"></span></Link></li>
                             <li><Link to="/contact" style={{ position: "relative" }}>Contact us  <span className="tab-effect"></span></Link></li>
@@ -106,7 +107,7 @@ class Navbar extends Component {
                         margin:0px !important
                     }
                     .brand-logo{
-                        // margin-left:10px;
+                        font-size:0.9em !important;
 
                     }
                     .navbar-fixed{

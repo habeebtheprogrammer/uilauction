@@ -6,11 +6,14 @@ import moment from "moment"
 import { Icon } from "react-materialize"
 import Countdown from 'react-countdown-now';
 import jwt from "jsonwebtoken"
+import { Instagram } from 'react-content-loader'
+
 class Marketplace extends Component {
     constructor(props) {
         super(props);
         this.state = {
             products: [],
+            response:false
         }
     }
     componentWillMount() {
@@ -40,6 +43,7 @@ class Marketplace extends Component {
         }
     };
     render() {
+        var array = [1,2,3,4,5,6,7,8]
         var usertoken = window.localStorage.getItem("jwToken");
         let memb;
         if (usertoken) memb = jwt.verify(usertoken, "h1a2b3e4e5b6");
@@ -55,7 +59,13 @@ class Marketplace extends Component {
                         <h5>Recommended for you</h5>
 
                     </div>
-                    
+                    {this.state.response === false ?
+                                array.map((loader) => (
+                                    <div className="col s12 m3 x2-padding">
+                                        <Instagram />
+                                    </div>
+                                ))
+                                : null}
                     {this.state.products.length > 0 ? this.state.products.map((product) => (
                         <div className="col s12 m3 x2-padding">
                             <Link to={`marketplace/${product._id}`} className="grey-text text-darken-3">

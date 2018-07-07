@@ -271,13 +271,13 @@ class Signup extends Component {
                     <style>{`
                     body{
                         // background:#f8f8f8;
-                        background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),#263238 url('./images/demo1_slide4_880x285-1.jpg') no-repeat;
+                        background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),#263238 url('./images/black-friday-cyber-monday-ecommerce-shopping-holiday-ss-1920.jpg') no-repeat;
                         background-size:cover;
                         background-position:left;
                         background-position-x:-400px;
                     }
                     .signup .bgimg{
-                        // background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),#263238 url('./images/Writers_Models_Style_10.jpg') no-repeat;
+                        // background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),#263238 url('./images/black-friday-cyber-monday-ecommerce-shopping-holiday-ss-1920.jpg') no-repeat;
                         // background-position:cover;
                     }
                     label span{

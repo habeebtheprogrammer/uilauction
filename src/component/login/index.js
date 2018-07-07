@@ -67,10 +67,10 @@ class Login extends Component {
     render() {
       
         return (
-            <div className="login">
-                <Navbar />
+            <div className="login"  style={{padding:"100px 10px"}}>
+                {/* <Navbar /> */}
 
-                <div className="row login-card-row" >
+                <div className="row login-card-row">
                     <div className="col s12 m4 offset-m4 white">
                         {this.state.isLoading === true ? <ProgressBar className="progressbar" /> : null}
                         <div className="card-content" style={{ paddingTop: "20px", paddingBottom: "50px" }}>
@@ -136,15 +136,18 @@ class Login extends Component {
                         </div>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
                 <style>{`
                     body{
-                        // background:#eee;
+                        background:#f7f7f7;
                         // background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),#263238 url('./images/live-concerts-events-in-bujumbura.jpg') no-repeat
                     }
                     .login .login-img{
                         background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),#000 url('./images/Writers_Models_Style_10.jpg') no-repeat;
                         background-size:cover;
+                    }
+                    .row{
+                        margin:0px !important;
                     }
                     .login .login-card-row{
                         margin-top:50px;

@@ -13,7 +13,7 @@ class Notfound extends Component {
                         <div className="col s6 offset-s3 center-align">
                             
                             <img src="../../../images/pic_error.png" width="50%" class="img-responsive" alt="Image" />
-                            <p className="grey-text">© 2018 Tamtamtools. All Rights Reserved</p>
+                            <p className="grey-text">© 2018 Uilauction. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

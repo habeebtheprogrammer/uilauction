@@ -759,6 +759,7 @@ router.post('/api/checkUsername', (req, res, next) => {
     // Picture.find().then((s)=>console.log(s))
     Product.find({approved:true}).then((products) => {
       if (products) {
+        
         res.json({ "products": products });
 
       } else res.json({ "error": "Marketplace is empty" })

@@ -5,15 +5,16 @@ import Marketplaceslider from "../slider/marketplaceslider"
 import { Link } from "react-router-dom"
 // import $ from "jquery"
 import apiUrl from "../../config"
-import Newproduct from "./newproduct"
 import Searchbar from "./searchbar"
+import { Instagram } from 'react-content-loader'
+
 import moment from "moment"
 import axios from "axios"
 import Bestproduct from "./bestproduct"
 import jwt from "jsonwebtoken";
 import Countdown from 'react-countdown-now';
 import Loading from "../loader"
-import { Card, CardTitle, Collapsible,Icon, CollapsibleItem, Button, Row, Input, Badge } from "react-materialize"
+import { Icon, } from "react-materialize"
 class Marketplace extends Component {
     constructor(props) {
         super(props);
@@ -55,6 +56,8 @@ class Marketplace extends Component {
     render() {
         var usertoken = window.localStorage.getItem("jwToken");
         let memb;
+        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4]
+
         if (usertoken) memb = jwt.verify(usertoken, "h1a2b3e4e5b6");
         var array = ["1(30).jpg", "1(38).jpg", "1(3).jpg", "coll4.jpg", "cc.jpg", "cd.jpg", "cf.jpg", "cg.jpg", "coll5.jpg", "1(31).jpg"]
         return (
@@ -114,7 +117,13 @@ class Marketplace extends Component {
                                         {/* <div className="col s6" >
                                     <Filter searchCB={this.searchCB.bind(this)} />
                                 </div> */}
-
+   {this.state.response === false ?
+                                        array.map((loader) => (
+                                            <div className="col m3 s12">
+                                                <Instagram />
+                                            </div>
+                                        ))
+                                        : null}
                                         {this.state.search ?
                                             this.state.result.length ?
                                                 this.state.result.map((product, key) => (

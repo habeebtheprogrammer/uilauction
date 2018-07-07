@@ -68,7 +68,7 @@ class Join extends Component {
         return (
             token ? null :
                 <div>
-                    <div className="eventmodal">
+                    <div className="eventmodal text-white">
                         <Modal open={this.state.openModal} onClose={() => this.setState({ openModal: false })} classNames={{ modal: "join-modal" }} little>
                             <div className="row join-bg white-text" style={{ margin: "0px" }}>
                                 <div className="col s12" style={{ minHeight: "400px", background: "", padding: "20px" }}>
@@ -111,9 +111,12 @@ class Join extends Component {
                                 width:100% !important;
                                 padding:0px !important;
                                 margin:0px !important;
-                            background:#fff url("../../images/j1.jpg") no-repeat;
+                            background:#fff url("../../images/fashion-e-commerce.jpg") no-repeat;
                                 background-size:cover;
                             background-position:center;  
+                            }
+                            label{
+                                color:#fff
                             }
                             .join-bg{
                             min-height:400px !important;

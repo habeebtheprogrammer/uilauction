@@ -55,7 +55,9 @@
     "mongoose": "^4.13.6",
     "morgan": "~1.9.0",
     "nodemailer": "^4.6.4",
-    "querystring": "^0.2.0"
+    "querystring": "^0.2.0",
+    "react-content-loader": "^3.1.2"
+
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

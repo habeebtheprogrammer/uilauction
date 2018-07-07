@@ -29,7 +29,7 @@ class Hompage extends Component {
                         <div className="col m5 s12 white-text home-banner" style={{}}>
                             <h3>Behold! Pure Talent!</h3>
                             <p style={{fontSize:"1.2em"}}> Discover the most prodigious artists</p>
-                            {token ? null : <Link to="/pricing" className="btn joinbtn z-depth-0 yellow darken-4" style={{  }}>Join Tamtamtamtools today!</Link>}
+                            {token ? null : <Link to="/pricing" className="btn joinbtn z-depth-0 yellow darken-4" style={{  }}>Signup now</Link>}
                             
                         </div>
                         <div className="col m2 hide-on-med-and-down" style={{padding:"0px"}}>
@@ -47,26 +47,28 @@ class Hompage extends Component {
                 <Slider className="firstSlider">
                     <Slide
 
-                        src="../../images/demo1_slide5_880x285-1.jpg" 
-                        // title="Behold! Pure Talent!"
+                        src="../../images/black-friday-cyber-monday-ecommerce-shopping-holiday-ss-1920.jpg" 
+                        title="Behold! Pure Talent!"
                         placement="left">
-                        {/* Sell your books, Cd's and lots more <br /> */}
-                        {/* {token ? null : <Link to="/pricing" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Join Tamtamtamtools today!</Link>} */}
+                        <div>
+                         Sell your books, Cd's and lots more <br /> 
+                        {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
+                        </div>
                     </Slide>
 
                     <Slide
-                        src="../../images/demo1_slide6_880x285-1.jpg"
-                        // title="Media streaming platform"
+                        src="../../images/ecommerce-mobile-cellphone-smartphone-shopping-ss-1920-800x450.jpg"
+                        title="Media streaming platform"
                         placement="left">
-                        {/* Sell your books, Cd's and lots more <br /> */}
-                        {/* {token ? null : <Link to="/pricing" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Join Tamtamtamtools today!</Link>} */}
+                        Sell your books, Cd's and lots more <br />
+                        {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                     </Slide>
                     <Slide
-                        src="../../images/demo1_slide9_880x285-1.jpg"
-                        // title="Events and Marketplace"
+                        src="../../images/ecommerce-retail-ss-1920-800x450.jpg"
+                        title="Events and Marketplace"
                         placement="right">
-                        {/* Sell your books, Cd's and lots more <br /> */}
-                        {/* {token ? null : <Link to="/pricing" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Join Tamtamtamtools today!</Link>} */}
+                        Sell your books, Cd's and lots more <br />
+                        {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                      </Slide>
                 </Slider>
                 {/* <Video /> */}
@@ -129,7 +131,7 @@ class Hompage extends Component {
                         height: 300px
                             }
                         .joinbtn{
-                            padding: 5px 15px ;
+                            padding: 5px 30px ;
                             height: inherit !important; 
                             font-size:0.7em  !important;
                             border-radius: 5px !important; 
