@@ -46,7 +46,7 @@ var productSchema = mongoose.Schema({
     },
      duration: {
         type: Number,
-        default: 30000000
+        default: 3000000000000
     },
     email: {
         type: String
