@@ -232,6 +232,10 @@ class Buy extends Component {
                         background:#f7f7f7;
                         // background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),#263238 url('./images/live-concerts-events-in-bujumbura.jpg') no-repeat
                     }
+                    label{
+                        color:#000
+
+                    }
                     ul.collection{
                         margin:0px; 
                     }

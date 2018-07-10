@@ -276,6 +276,10 @@ class Signup extends Component {
                         background-position:left;
                         background-position-x:-400px;
                     }
+                    label{
+                        color:#000
+
+                    }
                     .signup .bgimg{
                         // background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),#263238 url('./images/black-friday-cyber-monday-ecommerce-shopping-holiday-ss-1920.jpg') no-repeat;
                         // background-position:cover;
