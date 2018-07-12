@@ -96,7 +96,7 @@ class Login extends Component {
                                         </Col>
                                     </Row> */}
                             <Row>
-                                <p className="grey-text text-darken-2 center-align">Make the most of the Creative world of Artists and Seekers!</p>
+                                <p className="grey-text text-darken-2 center-align">Make the most of the Creative world of uilauction and marketplace</p>
                             </Row>
                             <Row className="hide-on-med-and-down">
                                 <Col s={5}>
