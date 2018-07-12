@@ -167,7 +167,7 @@ class Signup extends Component {
                                 </Row> */}
                                 <Row>
                                     <p className="grey-text text-darken-2 center-align" style={{ fontSize: "1.5em", fontFamily: "avenirBold" }}>Sign Up</p>
-                                    <p className="grey-text text-darken-2 center-align" style={{ fontSize: "1em" }}>Make the most of the Creative world of Artists and Seekers!</p>
+                                    <p className="grey-text text-darken-2 center-align" style={{ fontSize: "1em" }}>Make the most of the Creative world of uilaution marketplace!</p>
                                 </Row>
                                 {/* <Row>
                                     <Col s={5}>

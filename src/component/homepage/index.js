@@ -60,14 +60,14 @@ class Hompage extends Component {
                         src="../../images/ecommerce-mobile-cellphone-smartphone-shopping-ss-1920-800x450.jpg"
                         title="Media streaming platform"
                         placement="left">
-                        Sell your books, Cd's and lots more <br />
+                        Explore our marketplace and do what you love <br />
                         {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                     </Slide>
                     <Slide
                         src="../../images/ecommerce-retail-ss-1920-800x450.jpg"
                         title="Events and Marketplace"
                         placement="right">
-                        Sell your books, Cd's and lots more <br />
+                        Free delivery for all students<br />
                         {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                      </Slide>
                 </Slider>
