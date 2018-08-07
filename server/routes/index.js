@@ -472,7 +472,7 @@ router.post('/api/register', function (req, res, next) {
         if(user){
           res.json({error:"You have already place a bid for this item"})
         }else{
-          Bids.create({ firstName, userID: userData.id, productTitle, lastName,bid, email, organisation, city, state, shipping, phone, price, date: time, productName, productID , imgUrl:product.imgUrl, description:product.description,startingat:product.price})
+          Bids.create({ firstName, userID: userData.id, productTitle, productTime, lastName,bid, email, organisation, city, state, shipping, phone, price, date: time, productName, productID , imgUrl:product.imgUrl, description:product.description,startingat:product.price})
             // newUser.save()
             .then((user) => {
               if (user) {
