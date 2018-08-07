@@ -42,7 +42,7 @@ class Sidebar extends Component {
                         </div> :
                         <div>
                             <SideNavItem waves href='/login'>Login</SideNavItem>
-                            <SideNavItem waves href='/pricing'>Register</SideNavItem>
+                            <SideNavItem waves href='/signup'>Register</SideNavItem>
                         </div>
                     }
                 </SideNav>

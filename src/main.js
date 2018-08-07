@@ -23,6 +23,7 @@ import Password from './component/reset/password';
 import Resetpassword from './component/reset/reset';
 
 import Join from "./join"
+import Pay from './component/pay';
 class Main extends Component {
 
     render() {
@@ -50,6 +51,7 @@ class Main extends Component {
                     {/* <Route exact path="/register" component={Register} /> */}
                     <Route exact path="/buy/:id" component={Buy} />
                     <Privateroute exact path="/dashboard" component={Dashboard} />
+                    <Privateroute exact path="/pay/:id" component={Pay} />
                     <Route exact path="/marketplace" component={Marketplace} />
                     <Route exact path="/marketplace/:id" component={Product} />
                     

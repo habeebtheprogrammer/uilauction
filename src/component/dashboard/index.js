@@ -16,7 +16,7 @@ import moment from "moment"
 import Contact from "./contact"
 import Contactdetails from "./contactdetails"
 import Countdown from 'react-countdown-now';
-
+import jwt from "jsonwebtoken"
 import Work from "./work"
 import Description from "./description"
 import Banner from "./banner"
@@ -178,10 +178,14 @@ class Dashboard extends Component {
             return <span>{hours}:{minutes}:{seconds}</span>;
         }
     };
+    createtoken(amount){
+        var token = jwt.sign(amount,"bidders");
+        return token
+    }
     render() {
         console.log(this.state)
         let token = localStorage.getItem("jwToken");
-  
+       
         return (
             <div className="dashboard">
                 {/* {this.state.firstLoad !== true && this.state.productToggle ? <Modal closeProductModal={this.productModal} productModal={this.state.productModal} /> : null} */}
@@ -195,8 +199,8 @@ class Dashboard extends Component {
                         <Contact profile={this.props.profile} editBio={this.editBio} />
                             {/* <Youtube profile={this.props.profile} /> */}
                         
-                        <Items products={this.state.products} />
-
+                        {/* <Items products={this.state.products} /> */}
+ 
 
                         {/* <Work profile={this.props.profile} editWorkExp={this.editWorkExp} /> */}
                         {/* <Contactdetails profile={this.props.profile} editContact={this.editContact} /> */}
@@ -207,7 +211,7 @@ class Dashboard extends Component {
 
                         <div className="row " style={{ margin: "1px 1px 10px" }}>
 
-                            <div className="col s12 no-padding ">
+                            {/* <div className="col s12 no-padding ">
                                 <ul className="collection with-header white" style={{ border: "0px", margin: "0px 0px 10px" }}>
                                     <li className="collection-header" ><h6 >Sell an item
                                                                                       <Productmodal profile={this.props.profile}/>
@@ -216,7 +220,7 @@ class Dashboard extends Component {
                                         <span className="grey-text" style={{ fontSize: "0.8em" }}> uploaded items needs to be approved before there can be displayed in the marketplace</span>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col s12 no-padding ">
                                 <ul className="collection with-header white" style={{ border: "0px", margin: "0px 0px 10px" }}>
                                     <li className="collection-header" ><h6 >Bids
@@ -238,7 +242,8 @@ class Dashboard extends Component {
                                                 </p>
                                                 
                                                     <Link to={`/marketplace/${item.productID}`} className="btn small  transparent grey-text right z-depth-0" style={{ fontSize: "0.6em", border: "1px solid lightgrey" }}>View item</Link>
-
+                                                    <Link to={`/pay/${this.createtoken(item.bid)}`} className="btn small  transparent grey-text right z-depth-0" style={{ fontSize: "0.6em", border: "1px solid lightgrey" }}>Buy Now</Link>
+                                                <div className="clearfix"></div>
                                                 {/* <Link to={`artists/${artist._id}`} className="secondary-content grey-text text-darken-4"><i className="material-icons">grade</i></Link> */}
                                             </li>
                                         )) : null}

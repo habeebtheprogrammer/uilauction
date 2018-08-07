@@ -468,7 +468,7 @@ router.post('/api/register', function (req, res, next) {
     
     if (userData) {
       const { firstName, lastName, email, bid, productTitle, productTime, organisation,productName,productID,  city, state, shipping, phone,price,product} = userData.data
-      Bids.findOne({userID:userData.id}).then((user) => {
+      Bids.findOne({userID:userData.id,productID:productID}).then((user) => {
         if(user){
           res.json({error:"You have already place a bid for this item"})
         }else{

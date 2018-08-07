@@ -44,6 +44,7 @@ class Login extends Component {
                 } else if (res.data.token) {
                     var userData = jwt.verify(res.data.token, "h1a2b3e4e5b6")
                     if (userData) {
+                        localStorage.setItem("email", this.state.email);
                         localStorage.setItem("jwToken", res.data.token);
                         setAuthorizationToken(res.data.token);
                         window.location.assign("/dashboard")
