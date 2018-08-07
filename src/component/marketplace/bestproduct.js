@@ -52,7 +52,7 @@ class Bestproduct extends Component {
                         <img src={`${item.imgUrl||"../../images/user.png"}`} alt="" className="circle" />
                         <a href={`/marketplace/${item._id}`} className="mtitle grey-text text-darken-4">{item.title} </a>
                         <p><small ><span>Starting at </span><span className="grey-text">N{item.price} </span><br />
-                            <span className="right">  <Countdown date={moment(item.date).dates() + item.duration}
+                            <span className="right">  <Countdown date={Date.now(item.date) + item.duration}
                                 renderer={this.renderer} /></span>
                         </small>
                         </p>

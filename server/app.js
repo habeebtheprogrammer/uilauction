@@ -13,7 +13,6 @@ var config = require('./config/config');
 // var crypto = require('crypto');
 var moment = require('moment');
 var index = require('./routes/index');
-
 var app = express();
 mongoose.Promise = global.Promise
 //cors
@@ -28,6 +27,7 @@ app.disable('x-powered-by');
 // view engine setup
 app.set('views', path.join(__dirname,"../", 'build'));
 app.set('view engine', "html");
+require('dotenv').load();
 
 app.engine('html', require('hbs').__express);
 

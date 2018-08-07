@@ -147,7 +147,7 @@ class Profile extends Component {
                             <div className="container " >
 
                              
-                                <Countdown date={moment(this.state.product.date).dates() +this.state.product.duration}
+                                <Countdown date={Date.now(this.state.product.date) +this.state.product.duration}
                                             renderer={this.renderer} />
                                   
                             </div>

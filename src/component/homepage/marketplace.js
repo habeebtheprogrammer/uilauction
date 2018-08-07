@@ -109,7 +109,7 @@ class Marketplace extends Component {
                                                     <Icon tiny>alarm</Icon>
                                                 </div>
                                                 <div className="col s6 grey-text left-align">
-                                                    <small> <Countdown date={moment(product.date).dates() + product.duration}
+                                                    <small> <Countdown date={Date.now(product.date) + product.duration}
                                                         renderer={this.renderer} /></small>
                                                 </div>
                                             </div>

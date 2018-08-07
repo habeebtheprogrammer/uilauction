@@ -237,7 +237,7 @@ class Dashboard extends Component {
                                                         <span>Bid placed at  </span><span className="grey-text">N{item.bid}</span><br />
                                                 
                                                 </small>
-                                                    <small> <Countdown date={moment(item.date).dates() + item.duration}
+                                                    <small> <Countdown date={Date.now(item.date) + item.duration}
                                                         renderer={this.renderer} /></small>
                                                 </p>
                                                 

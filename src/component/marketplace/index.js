@@ -213,7 +213,7 @@ class Marketplace extends Component {
                                                                     <Icon tiny>alarm</Icon>
                                                                 </div>
                                                                 <div className="col s6 grey-text left-align">
-                                                                    <small> <Countdown date={moment(product.date).dates() + parseInt(product.duration)}
+                                                                    <small> <Countdown date={Date.now(product.date) + parseInt(product.duration)}
                                                                         renderer={this.renderer} /></small>
                                                                 </div>
                                                             </div>
