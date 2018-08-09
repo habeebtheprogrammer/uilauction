@@ -47,27 +47,29 @@ class Hompage extends Component {
                 <Slider className="firstSlider">
                     <Slide
 
-                        src="../../images/black-friday-cyber-monday-ecommerce-shopping-holiday-ss-1920.jpg" 
-                        title="Behold! Pure Talent!"
+                        src="../../images/bid1.jpg" 
+                        title="find the unexpected and get what is expected!"
                         placement="left">
                         <div>
-                         Sell your books, Cd's and lots more <br /> 
+                        "with a low price here!"
+                         
+                          <br /> 
                         {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                         </div>
                     </Slide>
 
                     <Slide
-                        src="../../images/ecommerce-mobile-cellphone-smartphone-shopping-ss-1920-800x450.jpg"
-                        title="Media streaming platform"
+                        src="../../images/bid2.jpg"
+                        title="online auctioning platform"
                         placement="left">
                         Explore our marketplace and do what you love <br />
                         {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                     </Slide>
                     <Slide
-                        src="../../images/ecommerce-retail-ss-1920-800x450.jpg"
+                        src="../../images/bid33.jpg"
                         title="Events and Marketplace"
                         placement="right">
-                        Free delivery for all students<br />
+                        Free delivery for all, you can try us now!<br />
                         {token ? null : <Link to="/signup" className="btn joinbtn z-depth-0 yellow darken-4" style={{}}>Signup now</Link>}
                      </Slide>
                 </Slider>

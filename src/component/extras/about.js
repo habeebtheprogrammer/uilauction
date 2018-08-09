@@ -7,7 +7,7 @@ class About extends Component {
             <div className="contact-us">
                 <Navbar />
                 <div style={{
-                    background: "#000 url('./images/ecommerce-retail-ss-1920-800x450.jpg') no-repeat ", backgroundRepeat: "no-repeat",
+                    background: "#000 url('./images/bid4.jpg') no-repeat ", backgroundRepeat: "no-repeat",
                     backgroundSize: "cover", backgroundPosition: "top", height: "400px"
                 }}>
 
